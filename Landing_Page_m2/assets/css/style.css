@@ -1,0 +1,81 @@
+
+nav{
+  background-color: #253948;
+} 
+.navbar-nav {
+  margin-left: auto;
+}
+
+nav img {
+  height: 50px;
+  border-radius: 10px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: 	#9fafc2;
+}
+#seccionBg {
+  background-color: #c7cbd3ab;
+  border-radius: 25px;
+  box-shadow: -1px 2px 5px  #3A3F45;
+
+}
+
+#fotoPerfilId {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: -5px 5px 5px 2px 3A3F45;
+
+}
+
+#carouselComponet > .carousel-inner{
+  background-color: transparent;
+  border: none;
+}
+
+.img-custom {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  object-position: center;
+
+}
+
+footer{
+  background-color: #253948;
+} 
+
+#iconos img {
+  height: 32px;
+}
+@media (max-width: 767px) {
+  .carousel-inner{
+    height: 50rem !important;
+  }
+  .car-img-custom{
+    height: 20rem !important;
+    }
+
+}
+
+@media (min-width: 768px) {
+  .carousel-inner{
+    height: 25rem !important;
+  }
+  .car-img-custom {
+    padding: 1rem 1rem 1rem 1rem !important;
+    height: 25rem !important;
+  }
+  .img-custom {
+    border-radius: 1rem 0.25rem 0.25rem 1rem !important;
+  }
+}
+
+
+
+
